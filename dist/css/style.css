@@ -250,9 +250,13 @@
    font-size: 48px;
    font-style: normal;
    font-weight: 700;
-   line-height: 68px; 
+   line-height: 68px;
 }
 
 .main-bg {
-   background: radial-gradient(50% 50% at 50% 50%, #5975FF 0%, #3029D9 100%);
+   background: radial-gradient(50% 50% at 50% 50%, #5975ff 0%, #3029d9 100%);
+}
+
+.main-bg-dark {
+   background: radial-gradient(50% 50% at 50% 50%, #111800 0%, #111850 100%);
 }
