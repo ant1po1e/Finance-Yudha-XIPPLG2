@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="preconnect" href="https://fonts.googleapis.com" />
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet" />
+   <link rel="stylesheet" href="dist/output.css" />
+   <link rel="stylesheet" href="dist/css/style.css" />
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+   <link rel="icon" type="image/x-icon" href="dist/img/favicon.ico" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+   <title>MutuFinance | Ant1po1e</title>
+</head>
+
+<body
+   class="selection:bg-slate-100 selection:text-navy scrollbar-thin scrollbar-track-softpurple scrollbar-thumb-navy text-center md:text-left">
+   <!-- Pre-loader -->
+   <div id="preloader">
+      <div id="loader" class="justify-center items-center flex h-screen">
+         <div class="loadingio-spinner-double-ring-yvblxc851k">
+            <div class="ldio-hc1lg81h6f6">
+               <div></div>
+               <div></div>
+               <div>
+                  <div></div>
+               </div>
+               <div>
+                  <div></div>
+               </div>
+            </div>
+         </div>
+         <!-- <div>
+               <h4 class="font-bold uppercase text-white text-md mb-3 text-3xl">Loading</h4>
+         </div> -->
+      </div>
+   </div>
+   <!-- Pre-loader-END -->
+
+   <!-- Navbar -->
+   <header class="bg-transparent absolute shadow-lg top-0 w-full items-center z-10">
+      <div class="container">
+         <div class="flex items-center justify-between relative">
+            <div class="px-4">
+               <a href="#home" class="text-2xl font-black py-3 text-white inline-block"><img src="dist/img/logo.png"
+                     alt="logo" class="inline-block mr-5">WeFinance</a>
+            </div>
+            <div class="flex items-center px-4">
+               <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                  <span class="hamburger-line origin-top-left"></span>
+                  <span class="hamburger-line"></span>
+                  <span class="hamburger-line origin-bottom-left"></span>
+               </button>
+
+               <nav id="nav-menu"
+                  class="hidden absolute py-5 border border-blue bg-white border-none shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:shadow-none lg:max-w-full lg:rounded">
+                  <ul class="block lg:flex">
+                     <li class="group nav-link">
+                        <a href="#home"
+                           class="text-base font-bold text-navy lg:text-slate-300 py-2 mx-5 flex group-hover:text-white transition duration-300">Home</a>
+                     </li>
+                     <li class="group nav-link">
+                        <a href="#about"
+                           class="text-base font-bold text-navy lg:text-slate-300 py-2 mx-5 flex group-hover:text-white transition duration-300">About
+                           Us</a>
+                     </li>
+                     <li class="group nav-link">
+                        <a href="#feature"
+                           class=" txt-base font-bold text-navy lg:text-slate-300 py-2 mx-5 flex group-hover:text-white transition duration-300">How
+                           it Works</a>
+                     </li>
+                     </li>
+                     <li class="group nav-link">
+                        <a href="#contact"
+                           class="text-base font-bold text-navy lg:text-slate-300 py-2 mx-5 flex group-hover:text-white transition duration-300">Our
+                           Services</a>
+                     </li>
+                     <li class="group nav-link">
+
+                        <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown"
+                           class="text-base font-bold text-navy lg:text-slate-300 py-2 mx-5 flex group-hover:text-white transition duration-300"
+                           type="button">More <i class="bi bi-caret-down-fill ml-3"></i></button>
+
+
+                     </li>
+                     <li class="group lg:hidden">
+                        <a href="#"
+                           class="text-base font-bold text-navy py-2 justify-center mt-5 mx-5 flex group-hover:text-blue transition duration-300 border-y-2">Contact
+                           Us</a>
+                     </li>
+                  </ul>
+               </nav>
+            </div>
+            <a href="#" target="_blank"
+               class="text-base font-semibold hidden text-white bg-transparent border-2 py-3 px-8 rounded-lg lg:inline-block hover:bg-white hover:text-navy hover:scale-110 transition duration-300">Contact
+               Us</a>
+         </div>
+      </div>
+   </header>
+   <!-- Navbar-END -->
+
+   <!-- Home -->
+   <section id="home" class="py-20 main-bg">
+      <div class="container">
+         <div class="flex flex-wrap mb-3 justify-between">
+            <div class="w-full self-center px-4 lg:w-1/2" data-aos="zoom-out" data-aos-once="true">
+               <h1 class="header block font-extrabold text-white mb-3">
+                  Financial <br>Solutions.
+               </h1>
+               <p class="font-medium text-white mb-10 leading-relaxed lg:text-lg">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+               </p>
+               <a href="#" target="_blank"
+                  class="text-base font-semibold text-white bg-navy py-3 px-12 rounded-lg inline-block mr-3 hover:bg-softblue hover:text-navy hover:scale-110 transition duration-300">Let's
+                  Talk</a>
+            </div>
+            <div class="w-full self-end px-4 justify-center items-center lg:w-1/2" data-aos="zoom-out"
+               data-aos-once="true">
+               <div class="relative mt-10 lg:mt-9 lg:right-0">
+                  <div class="md:float-none lg:ml-24 border-2 rounded-lg">
+                     <img src="dist/img/banner.png" alt="banner" class="banner" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Home-END -->
+
+   <span id="about"></span>
+
+   <!-- Firm -->
+   <section class="py-20">
+      <div class="container">
+         <div class="flex flex-wrap mb-3 justify-between">
+            <div class="w-full self-center px-4 lg:w-1/2" data-aos="zoom-out" data-aos-once="true">
+               <p class="header-sm text-blue text-xl py-2 font-extrabold">Our Firm</p>
+               <h1 class="header-md block font-extrabold text-navy mb-5">
+                  We are Agile. Constantly
+                  Focused on Growth and
+                  Being Better
+               </h1>
+               <p class="font-medium text-slate-400 mb-3 leading-relaxed lg:text-lg">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+               </p>
+               <p class="font-medium text-slate-400 mb-10 leading-relaxed lg:text-lg">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+               </p>
+               <a href="#" target="_blank"
+                  class="text-base font-semibold text-white bg-blue py-3 px-12 rounded-lg inline-block mr-3 hover:bg-softpurple hover:text-navy hover:scale-110 transition duration-300">Let's
+                  Talk</a>
+            </div>
+            <div class="w-full self-end px-4 justify-center items-center lg:w-1/2" data-aos="zoom-out"
+               data-aos-once="true">
+               <div class="relative mt-10 lg:mt-9 lg:right-0">
+                  <div class="md:float-none lg:ml-24 border-2 rounded-lg">
+                     <div class=""></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Firm-END -->
+
+   <span id="feature"></span>
+
+   <!-- Service -->
+   <section class="py-20">
+      <div class="container" data-aos="fade-up" data-aos-once="true">
+         <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center">
+               <p class="header-sm text-blue text-xl py-2 font-extrabold">Our Services</p>
+               <h1 class="header-md block font-extrabold text-navy mb-5">
+                  What We Offer
+               </h1>
+            </div>
+         </div>
+
+         <div class="gap-5 sm:flex sm:flex-wrap sm:justify-center">
+            <div
+               class="rounded-xl bg-white shadow-lg overflow-hidden hover:scale-105 py-12 hover:shadow-navy transition duration-300 mb-10 sm:w-64 md:2-80 lg:w-96 justify-center text-center">
+               <img src="dist/img/icon-wallet.png" alt="icon-wallet" class="justify-center items-center my-10">
+               <div class="px-6 py-4">
+                  <p class="font-medium text-slate-400 mb-5 leading-relaxed lg:text-lg">#1</p>
+                  <h1 class="font-bold text-2xl mb-3 text-navy">Finacial Support</h1>
+                  <p class="font-medium text-slate-400 mb-2 leading-relaxed lg:text-lg">Far far away, behind the word
+                     mountains, far from the countries Vokalia and Consonantia.</p>
+               </div>
+            </div>
+
+            <div
+               class="rounded-xl bg-blue shadow-lg overflow-hidden hover:scale-105 py-12 hover:shadow-navy transition duration-300 mb-10 sm:w-64 md:2-80 lg:w-96 justify-center text-center">
+               <img src="dist/img/icon-backpack.png" alt="icon-wallet" class="justify-center items-center my-10">
+               <div class="px-6 py-4">
+                  <p class="font-medium text-slate-400 mb-5 leading-relaxed lg:text-lg">#2</p>
+                  <h1 class="font-bold text-2xl mb-3 text-white">Manage Investment
+                  </h1>
+                  <p class="font-medium text-slate-400 mb-2 leading-relaxed lg:text-lg">Far far away, behind the word
+                     mountains, far from the countries Vokalia and Consonantia.</p>
+               </div>
+            </div>
+
+            <div
+               class="rounded-xl bg-navy shadow-lg overflow-hidden hover:scale-105 py-12 hover:shadow-navy transition duration-300 mb-10 sm:w-64 md:2-80 lg:w-96 justify-center text-center">
+               <img src="dist/img/icon-wallet.png" alt="icon-wallet" class="justify-center items-center my-10">
+               <div class="px-6 py-4">
+                  <p class="font-medium text-slate-400 mb-5 leading-relaxed lg:text-lg">#3</p>
+                  <h1 class="font-bold text-2xl mb-3 text-white">Finacial Support</h1>
+                  <p class="font-medium text-slate-400 mb-2 leading-relaxed lg:text-lg">Far far away, behind the word
+                     mountains, far from the countries Vokalia and Consonantia.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Service-END -->
+
+   <!-- Feature -->
+   <section class="py-20 main-bg">
+      <div class="container">
+         <div class="flex flex-wrap mb-3 justify-between">
+            <div class="w-full self-center px-4 lg:w-1/2" data-aos="zoom-out" data-aos-once="true">
+               <h1 class="header-md block font-extrabold text-white mb-3">
+                  Manage Your
+                  Finances From
+                  one Place
+               </h1>
+               <p class="font-medium text-slate-300 mb-3 leading-relaxed lg:text-lg">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+               </p>
+               <p class="font-medium text-slate-300 mb-10 leading-relaxed lg:text-lg">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+               </p>
+               <a href="#" target="_blank"
+                  class="text-base font-semibold text-white bg-navy py-3 px-12 rounded-lg inline-block mr-3 hover:bg-softblue hover:text-navy hover:scale-110 transition duration-300">Check
+                  All Features</a>
+            </div>
+            <div class="w-full self-end px-4 justify-center items-center lg:w-1/2" data-aos="zoom-out"
+               data-aos-once="true">
+               <div class="relative mt-10 lg:mt-9 lg:right-0">
+                  <div class="md:float-none lg:ml-24 rounded-lg">
+                     <img src="dist/img/feature_banner.png" alt="banner" class="banner" />
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Feature-END -->
+
+   <span id="contact"></span>
+
+   <!-- StartNow -->
+   <section class="py-20">
+      <div class="container">
+         <div class="flex flex-wrap mb-3 justify-between">
+            <div class="w-full self-end px-4 justify-center items-center lg:w-1/2" data-aos="zoom-out"
+               data-aos-once="true">
+               <div class="relative mt-10 lg:mt-9 lg:right-0">
+                  <div class="md:float-none lg:ml-24 rounded-lg">
+                     <img src="dist/img/startnow_banner.png" alt="">
+                  </div>
+               </div>
+            </div>
+            <div class="w-full self-center px-4 lg:w-1/2" data-aos="zoom-out" data-aos-once="true">
+               <p class="header-sm text-blue text-xl py-2 font-extrabold">Start Now</p>
+               <h1 class="header-md block font-extrabold text-navy mb-5">
+                  Start Now & Make
+                  Your Finances
+                  Clear & Organized
+               </h1>
+               <p class="font-medium text-slate-400 mb-3 leading-relaxed lg:text-lg">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+               </p>
+               <p class="font-medium text-slate-400 mb-10 leading-relaxed lg:text-lg">
+                  Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live
+                  the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics
+               </p>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- StartNow-END -->
+
+   <!-- News -->
+   <section class="py-20">
+      <div class="container" data-aos="fade-up" data-aos-once="true">
+         <div class="w-full px-4">
+            <div class="max-w-xl mx-auto text-center">
+               <p class="header-sm text-blue text-xl py-2 font-extrabold">Our Services</p>
+               <h1 class="header-md block font-extrabold text-navy mb-5">
+                  What We Offer
+               </h1>
+            </div>
+         </div>
+
+         <div class="gap-5 sm:flex sm:flex-wrap sm:justify-center">
+            <div
+               class="rounded-xl bg-white shadow-xl overflow-hidden hover:scale-105 hover:shadow-navy transition duration-300 mb-10 sm:w-64 md:2-80 lg:w-96">
+               <img src="dist/img/card1.png" alt="" class="w-full rounded-xl">
+               <div class="px-6 py-4">
+                  <p class="font-bold text-blue mb-2 leading-relaxed lg:text-lg">January 10th, 2023</p>
+                  <h1 class="font-bold text-2xl mb-3 text-navy">How to Start a Successful in 2020</h1>
+                  <p class="font-medium text-slate-400 mb-5 leading-relaxed lg:text-lg">Far far away, behind the word
+                     mountains, far from the countries Vokalia and Consonantia.</p>
+                  <div class="block">
+                     <a href="#" target="_blank"
+                        class="text-base font-semibold text-white bg-blue py-3 px-8 mb-3 rounded-lg inline-block mr-3 hover:bg-softpurple hover:text-navy hover:scale-110 transition duration-300">Read More</a>
+                  </div>
+               </div>
+            </div>
+            
+            <div
+               class="rounded-xl bg-white shadow-xl overflow-hidden hover:scale-105 hover:shadow-navy transition duration-300 mb-10 sm:w-64 md:2-80 lg:w-96">
+               <img src="dist/img/card2.png" alt="" class="w-full rounded-xl">
+               <div class="px-6 py-4">
+                  <p class="font-bold text-blue mb-2 leading-relaxed lg:text-lg">April 10th, 2023</p>
+                  <h1 class="font-bold text-2xl mb-3 text-navy">Grow Your Business with Email Marketing</h1>
+                  <p class="font-medium text-slate-400 mb-5 leading-relaxed lg:text-lg">Far far away, behind the word
+                     mountains, far from the countries Vokalia and Consonantia.</p>
+                  <div class="block">
+                     <a href="#" target="_blank"
+                        class="text-base font-semibold text-white bg-blue py-3 px-8 mb-3 rounded-lg inline-block mr-3 hover:bg-softpurple hover:text-navy hover:scale-110 transition duration-300">Read More</a>
+                  </div>
+               </div>
+            </div>
+            
+            <div
+               class="rounded-xl bg-white shadow-xl overflow-hidden hover:scale-105 hover:shadow-navy transition duration-300 mb-10 sm:w-64 md:2-80 lg:w-96">
+               <img src="dist/img/card3.png" alt="" class="w-full rounded-xl">
+               <div class="px-6 py-4">
+                  <p class="font-bold text-blue mb-2 leading-relaxed lg:text-lg">November 10th, 2023</p>
+                  <h1 class="font-bold text-2xl mb-3 text-navy">The 4 Pillars Every Online Business</h1>
+                  <p class="font-medium text-slate-400 mb-5 leading-relaxed lg:text-lg">Far far away, behind the word
+                     mountains, far from the countries Vokalia and Consonantia.</p>
+                  <div class="block">
+                     <a href="#" target="_blank"
+                        class="text-base font-semibold text-white bg-blue py-3 px-8 mb-3 rounded-lg inline-block mr-3 hover:bg-softpurple hover:text-navy hover:scale-110 transition duration-300">Read More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- News-END -->
+
+   <footer class="bg-darkgrey2 p-12 border-t-2 border-navy">
+      <div class="container">
+         <div class="flex flex-wrap">
+            <div class="text-center w-full px-4 text-navy">
+               <h2 class=" font-semibold text-2xl text-navy mb-2">Have something to ask?</h2>
+               <h3>If you have any question, you can contact us on social media</h3>
+               <div class="pt-2 flex flex-wrap justify-center gap-4 text-xl">
+                  <a href="https://www.instagram.com/_ant1po1e" target="_blank"
+                     class="hover:scale-150 hover:text-blue transition duration-300"><i class="bi bi-instagram"></i></a>
+                  <a href="https://twitter.com/apolantipole" target="_blank"
+                     class="hover:scale-150 hover:text-blue transition duration-300"><i class="bi bi-twitter"></i></a>
+                  <a href="#" target="_blank" class="hover:scale-150 hover:text-blue transition duration-300"><i
+                        class="bi bi-linkedin"></i></a>
+                  <a href="https://github.com/ant1po1e" target="_blank"
+                     class="hover:scale-150 hover:text-blue transition duration-300"><i class="bi bi-github"></i></a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <div class="text-center w-full px-4 py-4 bg-darkgrey2 border-t-2 border-t-navy text-navy">
+      <p>Made with ♥ by <a href="https://github.com/ant1po1e" target="_blank" class="text-blue text-bold">Ant1po1e</a> |
+         Copyright © 2023</p>
+   </div>
+
+   <!-- Back-to-Top -->
+   <div class="fixed z-30 bottom-0 right-0 mr-10 mb-10">
+      <a href="#home" id="back2top"
+         class="justify-center items-center opacity-0 text-softblue font-bold text-5xl block bg-blue rounded-full bg-opacity-70 lg:text-7xl md:text-6xl ease-in animate-bounce transition-opacity duration-300">
+         <span><i class="bi bi-arrow-up-circle"></i></span>
+      </a>
+   </div>
+   <!-- Back-to-Top-END -->
+
+   <script src="dist/js/script.js"></script>
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
+
+</html>
