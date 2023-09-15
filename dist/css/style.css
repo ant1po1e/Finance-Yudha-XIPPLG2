@@ -12,6 +12,7 @@
 
    --fwlight: 300;
    --fwregular: 400;
+   dist/output
    --fwmedium: 500;
    --fwsemibold: 600;
    --fwbold: 700;
@@ -20,75 +21,6 @@
 
 * {
    font-family: "Poppins", sans-serif;
-}
-
-.card-brand {
-   width: 227px;
-   height: 110px;
-   border-radius: 16px;
-   margin-right: 2rem;
-   background: var(--darkgrey2);
-   text-align: center;
-}
-
-.card-brand .logo {
-   height: 50px;
-}
-
-.carousel-wrapper {
-   display: flex;
-   height: 110px;
-   animation: sliderLeft 8s linear infinite;
-}
-
-.carousel {
-   justify-content: flex-end;
-   display: flex;
-   flex-direction: row;
-   height: 110px;
-   overflow: hidden;
-}
-
-.carousel-wrapper-left {
-   display: flex;
-   height: 110px;
-   animation: sliderRight 8s linear infinite;
-}
-
-.carousel-left {
-   justify-content: flex-end;
-   display: flex;
-   flex-direction: row;
-   height: 110px;
-   overflow: hidden;
-}
-
-.w-32r {
-   width: 32rem;
-}
-
-.w-42r {
-   width: 42rem;
-}
-
-@keyframes sliderLeft {
-   0% {
-      transform: translateX(100%);
-   }
-
-   to {
-      transform: translateX(0%);
-   }
-}
-
-@keyframes sliderRight {
-   0% {
-      transform: translateX(0%);
-   }
-
-   to {
-      transform: translateX(100%);
-   }
 }
 
 @keyframes ldio-hc1lg81h6f6 {
@@ -272,13 +204,3 @@
    position: fixed;
    z-index: 100;
 }
-/* 
-@keyframes blink {
-   0% {
-      opacity: 100%;
-   }
-
-   50% {
-      opacity: 0%;
-   }
-} */
